@@ -11,18 +11,17 @@
 ### Project:
 ##### For a streaming music app company sparkify, an ETL pipeline is built , that extracts raw data in form of json logs and metadata from S3 bucket, staged in Redshift, and transformed into a set of dimensional tables(database) for the analytics team.
 #
-#### Process:
+### Process:
 ##### - Understanding Data and Creating the Schema: 
 
         * Raw Data : JSON logs on user activity on the app  and JSON metadata on the songs in the app hosted on S3 Bucket
         * Star Scehma : A Fact table of Songs-Played and Dimenisons Table: Users, Songs, Artists and time
 
-##### - PROJECT FLOW
+##### - Project Flow
  ![](https://github.com/RammySekham/Creating-CDW-AWS/blob/main/images/Project_Flow.png)
 
 
-
-### Query Snapshots in Redshift Console
+#### - Query Snapshots in Redshift Console
 
 
 ### How to run this code
