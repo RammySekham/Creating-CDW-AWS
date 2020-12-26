@@ -5,8 +5,8 @@
 ##### For this project we have selected 'AWS-Redshift' for migrating data to cloud. AWS RedShift facilitates MPP Architecture(Massive Parallel processing on multiple nodes, offers query optimization, horizontal scaling(add as many nodes as needed), massive storage, with VPC security and SQL based.
 
 #### Challenges of Redshift
-##### 'Primary Key' 'Foreign Key' 'UNIQUE' constraints of SQL DDL won't work in Redshift. We need to code extra step in 'INSERT statements' while loading data to redshift tables, so to make sure data entered is unique/not duplicated. It requires an extra effort to build logic in SQL queries.
-##### Careful consideration of distkey and sortkey. Distkey helps in data distribution on partitions for query optimization specifically in case of SQL JOINS. The sortkey 
+##### 'Primary Key' 'Foreign Key' 'UNIQUE' constraints of SQL DDL won't work in Redshift. We need to code extra step in 'INSERT statements' while loading data to redshift tables, so to make sure data entered is unique/not duplicated. It requires an additional effort to build logic in SQL queries.
+#####  Distkey and sortkey should be conisdered carefully. Distkey helps in data distribution on partitions for query optimization specifically in case of SQL JOINS. Data is stored on basis of sort key on disk. redshift query optimizer uses sort key in  query optimization
 
 
 
