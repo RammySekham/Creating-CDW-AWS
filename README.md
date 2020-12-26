@@ -31,10 +31,4 @@
 ##### -Go to  AWS Redshift Console to query data or perform queries as shown. 
 ###### Query Snapshots in Redshift Console
 ![](https://github.com/RammySekham/ETL-Pipeline--AWS-Redshift/blob/main/images/Redshift1.PNG)
-
-
-
-
-
-
-
+##### -If project is run for experimentation and learning. We can delete the cluster and remove the roles and policies by running `delete_cluster.ipynb`
