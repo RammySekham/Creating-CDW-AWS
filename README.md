@@ -17,7 +17,7 @@
 ######     Star Scehma : A Fact table of Songs-Played and Dimenisons Table: Users, Songs, Artists and time
 
 ##### 2. After understanding the data and schema, project is implemented as follows:
- ![](https://github.com/RammySekham/Creating-CDW-AWS/blob/main/images/Project_Flow.png)
+ ![](https://github.com/RammySekham/ETL-Pipeline--AWS-Redshift/blob/main/images/project.png)
 
 ### How to run this code
 ##### 1. Clone the repository or download the files
