@@ -18,6 +18,7 @@
         * Star Scehma : A Fact table of Songs-Played and Dimenisons Table: Users, Songs, Artists and time
 
 ##### - PROJECT FLOW
+ []https://github.com/RammySekham/Creating-CDW-AWS/blob/main/images/Project_Flow.png
 
 
 
