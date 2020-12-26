@@ -21,7 +21,7 @@
 
 ### How to run this code
 ##### -Clone the repository or download the files
-##### -Install requirements from requirements.txt
+##### -Install requirements from `requirements.txt`
 ##### -Configure `dwh_create.cfg` with Amazon Access KEY AND SECRET( with previliegs to create redshift cluster i.e. admin access)
 ##### -Run `create_cluster.ipynb` to create redshift cluster and Retrieve Cluster Endpoint(Host) and ARN.
 ##### -Configfure `dwh.cfg` to include Cluster Host and ARN
