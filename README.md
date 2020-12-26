@@ -22,9 +22,9 @@
 ### How to run this code
 ##### 1. Clone the repository or download the files
 ##### 2. Install requirements from `requirements.txt`
-##### 3. Configure `dwh_create.cfg` with Amazon Access KEY AND SECRET( with previliegs to create redshift cluster i.e. admin access)
-##### 4. Run `create_cluster.ipynb` to create redshift cluster and Retrieve Cluster Endpoint(Host) and ARN.
-##### 5. Configfure `dwh.cfg` to include Cluster Host and ARN
+##### 3. Configure `dwh_create.cfg` with Amazon Access KEY AND SECRET( with privilege to create redshift cluster i.e. admin access)
+##### 4. Run `create_cluster.ipynb` to create redshift cluster and retrieve Cluster Endpoint(Host) and ARN.
+##### 5. Configure `dwh.cfg` to include Cluster Host and ARN
 ##### 6. Run in terminal/bash
             python create_tables.py
             python etl.py
